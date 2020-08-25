@@ -35,6 +35,6 @@ public class aTest
     {
 		Calc a = new Calc();
         assertTrue( a.add(4,6)==10 );
-		assertTrue( a.add(4,5)==9 );
+		assertTrue( a.add(4,5)==8 );
     }
 }
