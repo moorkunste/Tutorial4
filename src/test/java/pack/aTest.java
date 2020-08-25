@@ -7,17 +7,17 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class aTest 
     extends TestCase
 {
     /**
      * Create the test case
      *
-     * @param testName name of the test case
+     * @param TestCalc name of the test case
      */
-    public AppTest( String testName )
+    public aTest( String TestCalc )
     {
-        super( testName );
+        super( TestCalc );
     }
 
     /**
@@ -25,7 +25,7 @@ public class AppTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppTest.class );
+        return new TestSuite( aTest.class );
     }
 
     /**
@@ -33,6 +33,8 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+		Calc a = new Calc();
+        assertTrue( a.add(4,6)==10 );
+		assertTrue( a.add(4,5)==9 );
     }
 }
