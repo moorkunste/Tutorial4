@@ -1,7 +1,4 @@
 {
   "language": "java",
-  "os": [
-    "windows"
-  ],
   "script": "mvn clean test"
 }
