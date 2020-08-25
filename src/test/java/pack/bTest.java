@@ -15,9 +15,9 @@ public class bTest
      *
      * @param TestCalc name of the test case
      */
-    public bTest( String TestCalc )
+    public bTest( String TestCalcsub )
     {
-        super( TestCalc );
+        super( TestCalcsub );
     }
 
     /**
